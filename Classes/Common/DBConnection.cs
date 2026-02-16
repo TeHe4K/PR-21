@@ -9,7 +9,7 @@ namespace Konevskii_PR21.Classes.Common
 {
     public class DBConnection
     {
-        public static readonly string Parh = @"";
+        public static readonly string Parh = @"Bin\Debug\DataBase\Database.accdb";
 
         public static OleDbConnection Connection()
         {
